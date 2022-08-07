@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>𝑵𝒈𝒖𝒚𝒆̂̃𝒏 𝑲𝒉𝒖̛𝒐̛𝒏𝒈 𝑫𝒖𝒚</title>
+</head>
+
+<body>
+    <div class="card">
+        <section class="main">
+            <p class="name">𝑵𝒈𝒖𝒚𝒆̂̃𝒏 𝑲𝒉𝒖̛𝒐̛𝒏𝒈 𝑫𝒖𝒚</p>
+            <p>Dᴜʏ Gɪᴀ̂́ᴜ Tᴇ̂ɴ</p>
+        </section>
+
+        <section class="more">
+            <p>Contact for me...</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/id100099999999999" class="facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.m.me/nguyenkhuongduy04/" class="messenger">
+                    <i class="fab fa-facebook-messenger"></i>
+                </a>
+                <a href="https://nguyenkhuongduy04.github.io/" class="github">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.instagram.com/nguyenkhuongduy0004/" class="instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com/nguyenkduy004" class="twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCKCHVCgxPMrHFLJknHZZtVcTjdBwlWZKKgWHzJBbwmqkvmqRkSzfhSJvbFPTGHFKBBHVNmL" class="googleplus">
+                    <i class="fab fa-google-plus-g"></i>
+                </a>
+            </div>
+        </section>
+
+        <section class="info">
+            <section>
+                <p>Posts</p>
+                <p class="value">85</p>
+            </section>
+            <section>
+                <p>Likes</p>
+                <p class="value">2350</p>
+            </section>
+            <section>
+                <p>Comments</p>
+                <p class="value">186</p>
+            </section>
+            <button id="openerBtn">
+                <i class="fas fa-plus"></i>
+                <i class="fas fa-minus"></i>
+            </button>
+        </section>
+    </div>
+
+</body>
+
+<script>
+    var buttonEl = document.getElementById('openerBtn');
+    var cardEl = document.querySelector('.card');
+
+    buttonEl.addEventListener('click', function() {
+        cardEl.classList.toggle('opened');
+    })
+</script>
+
+</html>
